@@ -4,7 +4,7 @@ import { resolve, extname, sep } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
 const port = Number(process.env.PORT || 4173);
-const allowed = new Set(['index.html', 'styles.css', 'app.js', 'namecard.png', 'yoonbo-sim.vcf']);
+const allowed = new Set(['index.html', 'styles.css', 'app.js', 'site-config.js', 'namecard.png', 'share-card.png', 'yoonbo-sim.vcf']);
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.png': 'image/png', '.vcf': 'text/vcard; charset=utf-8' };
 
 http.createServer(async (request, response) => {
