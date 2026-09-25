@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:SIM;YOONBO;;;
+FN:YOONBO SIM
+ORG:JARVIS
+TITLE:Founder & Software Developer
+TEL;TYPE=CELL:+821082175865
+EMAIL;TYPE=INTERNET,WORK:ensoary@gmail.com
+URL:https://waffle-ens.github.io/jarvis-namecard/
+NOTE:웹·소프트웨어 개발 / 유지보수 /
+  시스템 개발 및 자문
+END:VCARD

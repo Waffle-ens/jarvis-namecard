@@ -1,0 +1,11 @@
+{
+  "name": "jarvis-business-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JARVIS mobile business card",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check scripts/build.mjs && node --check scripts/serve.mjs"
+  }
+}
