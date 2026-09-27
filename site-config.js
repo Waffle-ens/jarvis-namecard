@@ -3,5 +3,5 @@
 // SDK 도메인과 제품 링크 웹 도메인에 https://waffle-ens.github.io 를 등록해야 합니다.
 // 키가 비어 있으면 카카오톡 전용 버튼은 표시하지 않고 일반 공유만 제공합니다.
 window.JARVIS_CONFIG = Object.freeze({
-  kakaoJavaScriptKey: '',
+  kakaoJavaScriptKey: 'c9ea02555259bb86312e39749eab42d0',
 });
